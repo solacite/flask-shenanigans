@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "fot-yuruka-std";
+    src: url("/fonts/fot-yuruka-std.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.pinimg.com/1200x/c8/c8/51/c8c851e3a57428aa3d51a1c1b0d54374.jpg");
+    background-size: 200px;
+    background-repeat: repeat;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: "fot-yuruka-std", sans-serif;
+}
+
+.content {
+    text-align: center;
+    font-family: "fot-yuruka-std", sans-serif;
+}
+
+.content img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    font-family: "fot-yuruka-std", sans-serif;
+}
